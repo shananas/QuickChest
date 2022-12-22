@@ -1,0 +1,14 @@
+title: Quick Chest
+originalAuthor: Shananas
+description: Skips chest openning animation
+assets:
+
+#mset
+- name: obj/F_EX030.mset
+  method: copy
+  source:
+  - name: obj/F_EX030.mset
+- name: obj/F_EX030_TT.mset
+  method: copy
+  source:
+  - name: obj/F_EX030_TT.mset
