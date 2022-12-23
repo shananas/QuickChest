@@ -12,3 +12,7 @@ assets:
   method: copy
   source:
   - name: obj/F_EX030_TT.mset
+- name: obj/F_EX050.mset
+  method: copy
+  source:
+  - name: obj/F_EX050.mset
