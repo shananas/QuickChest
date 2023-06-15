@@ -16,3 +16,12 @@ assets:
   method: copy
   source:
   - name: obj/F_EX050.mset
+#Chest Visual option changes LK chest msets from EX050 to EX030_LK
+- method: copy
+  name: obj/F_EX030_LK.mset
+  source:
+  - name: obj/F_EX030_LK.mset
+- method: copy
+  name: obj/F_EX040_LK.mset
+  source:
+  - name: obj/F_EX030_LK.mset
