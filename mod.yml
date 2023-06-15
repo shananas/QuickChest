@@ -2,7 +2,6 @@ title: Quick Chest
 originalAuthor: Shananas
 description: Skips chest openning animation
 assets:
-
 #mset
 - name: obj/F_EX030.mset
   method: copy
@@ -16,8 +15,40 @@ assets:
   method: copy
   source:
   - name: obj/F_EX050.mset
-#Chest Visual option changes LK chest msets from EX050 to EX030_LK
+#Chest Visual option setting changes
+- method: copy
+  name: obj/F_EX040.mset
+  source:
+  - name: obj/F_EX030.mset
+- method: copy
+  name: obj/F_EX040_TT.mset
+  source:
+  - name: obj/F_EX030_TT.mset
+- method: copy
+  name: obj/F_EX040_RX.mset
+  source:
+  - name: obj/F_EX030_TT.mset
 - method: copy
   name: obj/F_EX030_LK.mset
   source:
   - name: obj/F_EX030_LK.mset
+- method: copy
+  name: obj/F_EX040_LK.mset
+  source:
+  - name: obj/F_EX030_LK.mset
+- method: copy
+  multi:
+  - name: obj/F_EX060_PRF.a.us
+  name: obj/F_EX040_PRF.a.us
+  platform: pc
+  source:
+  - name: obj/F_EX030_EH.a.us
+    type: internal
+- method: copy
+  multi:
+  - name: obj/F_EX060_PRF.a.fm
+  name: obj/F_EX040_PRF.a.fm
+  platform: ps2
+  source:
+  - name: obj/F_EX030_EH.a.fm
+    type: internal
