@@ -21,7 +21,3 @@ assets:
   name: obj/F_EX030_LK.mset
   source:
   - name: obj/F_EX030_LK.mset
-- method: copy
-  name: obj/F_EX040_LK.mset
-  source:
-  - name: obj/F_EX030_LK.mset
