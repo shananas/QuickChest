@@ -3,6 +3,16 @@ originalAuthor: Shananas
 game: kh2
 description: Skips chest openning animation
 assets:
+#Xbox
+- name: 03system.bin
+  method: binarc  
+  source:
+  - method: listpatch
+    name: cmd
+    type: List
+    source:
+    - name: Cmd.yml
+      type: cmd
 #mset
 - name: obj/F_EX030.mset
   method: copy
